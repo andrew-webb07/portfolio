@@ -80,6 +80,22 @@ input, select, textarea {
 	display: flex;
 	justify-content: center;
 }
+
+.resume-container {
+	margin: 1em;
+}
+
+.resume {
+	border: white 2px solid;
+	border-radius: 1em;
+	margin: 1em;
+	padding: 1em 2.5em;
+}
+
+.resume:hover {
+	background: white;
+	color: black !important;
+}
 /* Basic */
 
 	html {
@@ -131,7 +147,7 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
-	a {
+	/* a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -139,13 +155,13 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 		color: #8cd1a8;
 		text-decoration: none;
-	}
+	} */
 
-		a:hover {
+		/* a:hover {
 			border-bottom-color: transparent !important;
-			color: #8cd1a8 !important;
+			color: #8cd1a8;
 			text-decoration: none;
-		}
+		} */
 
 	strong, b {
 		color: #61686b;
@@ -2822,11 +2838,8 @@ input, select, textarea {
 
 			#header header a {
 				color: inherit;
+				text-decoration: none;
 			}
-
-				#header header a:hover {
-					color: #ffffff !important;
-				}
 
 			#header header h1 {
 				font-size: 3em;
