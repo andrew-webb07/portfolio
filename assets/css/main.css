@@ -72,6 +72,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+.intro-par {
+	width: 30%;
+}
+
+.intro-par-container {
+	display: flex;
+	justify-content: center;
+}
 /* Basic */
 
 	html {
