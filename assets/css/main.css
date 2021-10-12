@@ -97,7 +97,7 @@ input, select, textarea {
     border: 0;
     box-shadow: none;
     color: #ffffff !important;
-	min-width: 12em;
+	min-width: 16em;
 }
 
 .resume:hover {
@@ -108,6 +108,24 @@ input, select, textarea {
 .stuff-I-do {
 	font-size: larger;
 }
+
+.projects-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.project-container {
+	width: 10em;
+}
+
+.project-image {
+	align-self: center;
+	width: 10em;
+    height: 10em;
+    object-fit: cover;
+}
+
 /* Basic */
 
 	html {
@@ -295,7 +313,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
-		width: 35em;
+		width: 65em;
 	}
 
 		.container.xsmall {
@@ -2693,7 +2711,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cd1a8;
+			background-color: #9d9d9d;
 			border: 0;
 			box-shadow: none;
 			color: #ffffff !important;
@@ -2883,7 +2901,7 @@ input, select, textarea {
 			}
 
 			#header .container .button {
-				min-width: 12em;
+				min-width: 16em;
 			}
 
 /* Footer */
