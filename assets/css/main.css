@@ -82,14 +82,14 @@ input, select, textarea {
 }
 
 .resume-container {
-	margin: 2em;
+	margin: 3em;
 }
 
 .resume {
-	border: white 2px solid;
-	border-radius: 1em;
-	margin: 1em;
-	padding: 1em 2.5em;
+	border: white 1px solid;
+	/* border-radius: 1em; */
+	padding: 1em 6em;
+	/* min-width: 16em; */
 }
 
 .linked-in {
