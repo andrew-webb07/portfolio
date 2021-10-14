@@ -124,7 +124,12 @@ input, select, textarea {
 	width: 10em;
     height: 10em;
     object-fit: cover;
+	box-shadow: #0000005c 0 0 0.7em 1px;
 }
+
+.project-image:hover {
+	transform: scale(1.05); 
+  }
 
 .gig-tax-video {
 	align-self: center;
@@ -132,7 +137,12 @@ input, select, textarea {
     height: auto;
     object-fit: cover;
 	margin-bottom: 3em;
+	box-shadow: #0000005c 0 0 0.7em 1px;
 }
+
+.gig-tax-video:hover {
+	transform: scale(1.01); 
+  }
 
 .profile-pic {
 	align-self: center;
